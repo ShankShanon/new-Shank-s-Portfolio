@@ -1,0 +1,67 @@
+a {
+    text-decoration: none;
+}
+body {
+    background: #1f2235;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+.m-heading {
+    font-family: 'Sedgwick Ave', cursive;
+}
+
+.navigation-link {
+    border: 2px solid transparent;
+}
+
+.navigation-link:hover {
+    text-decoration: none;
+    border-bottom: 2px solid #f5ba09;
+    transition: 0.5s ease;
+}
+.main-container {
+    height: 100vh;
+    margin-bottom: 15rem;
+   
+}
+.main_row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_row img {
+    width: auto;
+    height: 100vh;
+}
+
+.main_row h1 {
+    font-size: 5rem;
+}
+.main_image {
+    box-shadow: 5px 5px 10px ;
+}
+#about {
+    background: #313552;
+    border-radius: .5rem;
+}
+
+.card {
+    border: 8px solid #f5ba09;
+}
+#social-media {
+    background: #313552;
+}
+.media_link {
+    padding: 1rem;
+    max-width: 15rem;
+    margin-left: 1rem;
+    border: 2px solid #f5ba09;
+    border-radius: 0.5rem;
+}
+
+footer {
+    text-align: center;
+}
+footer a {
+    text-decoration: none;
+}
